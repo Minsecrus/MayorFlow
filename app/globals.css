@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 1220px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  color: #22352b;
+  background: #fff;
+  font-family:
+    Inter, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}

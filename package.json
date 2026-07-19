@@ -1,0 +1,49 @@
+{
+  "name": "mayorflow",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Minsecrus/MayorFlow.git"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "start": "vite preview",
+    "test": "vitest run",
+    "test:render": "npm run build && node --test tests/rendered-html.test.mjs",
+    "test:all": "npm run test && npm run test:render",
+    "lint": "eslint . --max-warnings=0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.3.2",
+    "antd": "^6.5.1",
+    "echarts": "^6.1.0",
+    "echarts-for-react": "^3.0.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "tslib": "^2.8.1",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "eslint": "9.39.4",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.4.26",
+    "globals": "^16.5.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "^8.64.0",
+    "vite": "8.0.13",
+    "vitest": "^4.1.10"
+  },
+  "type": "module"
+}
