@@ -6,6 +6,8 @@ import type {
   ProductionItem,
 } from "./types";
 
+const itemAssetBaseUrl = `${import.meta.env.BASE_URL}items/`;
+
 export const categories: Category[] = [
   { id: "factory", name: "工厂原料", shortName: "原料", color: "#5b8c00" },
   {
@@ -68,7 +70,7 @@ const defineItem = (
   level,
   productionMinutes,
   ingredients: ingredients(recipe),
-  image: `/items/${id}.png`,
+  image: `${itemAssetBaseUrl}${id}.png`,
   isFactoryMaterial: category === "factory",
 });
 

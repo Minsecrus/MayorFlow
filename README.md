@@ -2,6 +2,8 @@
 
 《模拟城市：我是市长》的桌面端生产材料规划器。
 
+在线使用：[MayorFlow 市长工坊](https://minsecrus.github.io/MayorFlow/)
+
 ## 功能
 
 - 使用 63 张游戏物品图片选择生产目标
@@ -33,6 +35,10 @@
     npm run lint
     npm test
     npm run build
+
+## 部署
+
+推送到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages。也可以在 Actions 页面手动触发部署。
 
 配方与基础生产时间参考 SimCity Wiki，物品图片来自 SCBuildIt HubsInfo。
 
