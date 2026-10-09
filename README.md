@@ -45,3 +45,7 @@
 ## 许可
 
 项目代码使用 [MIT License](LICENSE)。游戏名称和物品图片归各自权利人所有。
+
+本项目未经 EA 或其许可方认可，亦与其不存在关联。
+
+> This project is not endorsed by or affiliated with EA or its licensors.

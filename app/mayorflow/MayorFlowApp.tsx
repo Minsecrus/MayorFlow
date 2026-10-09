@@ -610,6 +610,11 @@ export function MayorFlowApp() {
               《模拟城市：我是市长》生产规划工具。选择目标物品和数量后，
               自动递归计算工厂原料，并生成工厂槽位与商店加工流程。
             </Typography.Paragraph>
+            <Typography.Paragraph type="secondary">
+              本项目未经 EA 或其许可方认可，亦与其不存在关联。
+              <br />
+              {"This project is not endorsed by or affiliated with EA or its licensors."}
+            </Typography.Paragraph>
             <Space size={8}>
               <GithubOutlined />
               <Typography.Link
